@@ -295,4 +295,4 @@ const AboutPage = () => {
   );
 };
 
-export default memo(AboutPage);
+export default memo(AboutPage); 
