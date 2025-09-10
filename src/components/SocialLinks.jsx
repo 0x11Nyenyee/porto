@@ -8,16 +8,18 @@ import {
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import DiscordIcon from "./icons/DiscordIcon"; // sesuaikan path
+
 
 const socialLinks = [
   {
-    name: "LinkedIn",
+    name: "Discord",
     displayName: "Let's Connect",
-    subText: "on LinkedIn",
-    icon: Linkedin,
-    url: "https://www.linkedin.com/in/ekizr/",
-    color: "#0A66C2",
-    gradient: "from-[#0A66C2] to-[#0077B5]",
+    subText: "on Discord",
+    icon: DiscordIcon, // ganti dari Linkedin → DiscordIcon
+    url: "https://discord.com/users/802200281781108817", // ganti sesuai akun Discord
+    color: "#7289DA",
+    gradient: "from-[#7289DA] to-[#5b6eae]",
     isPrimary: true,
   },
   {
